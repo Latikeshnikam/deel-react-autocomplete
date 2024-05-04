@@ -1,0 +1,23 @@
+.listStyle {
+  list-style: none;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: absolute;
+  width: 312px;
+  z-index: 1;
+  background-color: #fff;
+  overflow-y: auto;
+  max-height: 20rem;
+}
+
+.listItemStyle {
+  padding: 5px;
+  cursor: pointer;
+}
+.noMatch {
+  padding: 8px;
+  color: #888;
+  font-style: italic;
+}
